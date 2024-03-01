@@ -1,0 +1,76 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 50px;
+    font-size: 20px;
+    background-color:rgba(128, 128, 128, 0.175);
+}
+.calculator{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #00000073;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    border-radius: 5px;
+}
+.screen{
+    display: flex;
+    flex-direction: column;
+    /* text-align: flex-end; */
+    /* justify-content: center; */
+    height: 90px;
+    background-color: #EEEEEE;
+    width: 330px;
+    border-radius: 5px;
+}
+#text_up,#text_down{
+    text-align: end;
+    height: 45px;
+    width: 300px;
+    line-height: 45px;
+    font-size: 30px;
+}
+.button_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap:10px;
+}
+.line1{
+    display: flex;
+     gap:10px
+}
+.btn_clr{
+    width: 160px;
+    height: 50px;
+    background-color:rgb(224, 186, 161);
+    border-radius: 5px;
+}
+.btn_del{
+    width: 160px;
+    height: 50px;
+    background-color:rgba(107, 63, 251, 0.612);
+    border-radius: 5px;
+}
+.line2,.line3,.line4,.line5{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.btn{
+    text-align: center;
+    width: 75px;
+    line-height: 50px;
+    border-radius: 5px;
+}
